@@ -1,14 +1,29 @@
-h1
-{
-    /*font-family: "Fixedsys Regular";*/
-    text-align: center;
+h1{
+    font-family: "Fixedsys Regular";
+    text-align: left;
 }
-#box
-{
+#Box{
     height: 500px;
     width: 500px;
     border-color: black;
     border-style: solid;
     border-width: 10px;
-    margin: auto;
+    position: absolute;
+}
+#Car{
+    position: absolute;
+    top: 370px;
+    left: 0px;
+    height: 120px;
+    width: 90px;
+}
+.Robber{
+    position: absolute;
+    height: 70px;
+    width: 70px;
+}
+#Kid{
+    position: absolute;
+    height: 65px;
+    width: 35px;
 }
